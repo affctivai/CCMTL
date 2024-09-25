@@ -1,8 +1,6 @@
 from torch import Tensor
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from modulator import Modulator
-from einops.layers.torch import Rearrange, Reduce
-from einops import rearrange, reduce, repeat
 
 import torch.nn.functional as F
 import torch.nn as nn
