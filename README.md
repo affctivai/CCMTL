@@ -4,7 +4,7 @@ Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based E
 Code for the [TAFFC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369) paper Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition
 
 <p align="center">
-  <img width="600" src="CCMTL.png">
+  <img width="800" src="CCMTL.png">
 </p>
 
 ### Data Download and set up environments
@@ -23,7 +23,7 @@ bash run.sh
 If this code is useful for your research, please cite us at:
 
 ```
-@inproceedings{kang2024CCMTL,
+@inproceedings{kang2025CCMTL,
   title={Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition},
   author={Kang, Hyunwook and Choi, Jin Woo and Kim, Byung Hyung},
   journal={IEEE Transactions on Affective Computing},
