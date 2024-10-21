@@ -2,6 +2,8 @@ from solver import Solver
 from data_loader import get_loader
 from config import get_config
 
+import numpy as np
+
 if __name__=='__main__':
     
     test_acc_list=[]

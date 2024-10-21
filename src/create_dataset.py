@@ -14,11 +14,13 @@ class SEED:
 
         DATA_PATH = str(config.dataset_dir)
         SUBJECT = str(config.subject)
-        
+        train_fn='/train_'+str(SUBJECT)+'.pkl'
+        dev_fn='/dev_'+str(SUBJECT)+'.pkl'
+        test_fn='/test_'+str(SUBJECT)+'.pkl'
         try:
-            self.train = load_pickle(DATA_PATH + '/train.pkl')            
-            self.dev = load_pickle(DATA_PATH + '/dev.pkl')
-            self.test = load_pickle(DATA_PATH + '/test.pkl')
+            self.train = load_pickle(DATA_PATH + train_fn)            
+            self.dev = load_pickle(DATA_PATH + dev_fn)
+            self.test = load_pickle(DATA_PATH + test_fn)
             
             
         except:
@@ -47,13 +49,13 @@ class SEED:
                                 test.append((fe,labels[i-1]))
             random.shuffle(train)
             offset=int(len(train)*0.7)
-            self.dev=train[2814:]
+            self.dev=dev=train[2814:]
             train=train[:2814]
             
 
-            to_pickle(train, DATA_PATH+'/train.pkl')
-            to_pickle(dev, DATA_PATH+'/dev.pkl')
-            to_pickle(test, DATA_PATH+'/test.pkl')
+            to_pickle(train, DATA_PATH+train_fn)
+            to_pickle(dev, DATA_PATH+dev_fn)
+            to_pickle(test, DATA_PATH+test_fn)
 
     def get_data(self, mode):
         if mode=='train':
