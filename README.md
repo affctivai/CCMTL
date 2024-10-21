@@ -1,7 +1,7 @@
 # CCMTL
 Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition
 
-Code for the [TAFFC](https://icpr2024.org/) paper Cascading global and sequential temporal representations with local context modeling for EEG-based emotion recognition
+Code for the [TAFFC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369) paper Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition
 
 <p align="center">
   <img width="600" src="ConTL-pic.png">
@@ -9,14 +9,14 @@ Code for the [TAFFC](https://icpr2024.org/) paper Cascading global and sequentia
 
 ### Data Download and set up environments
 
- - Download [SEED-IV](https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html)
- - set seed_four_path in run.sh file to its respective path and run the following command.
+ - Download [SEED](https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html)
+ - set seed_path in run.sh file to its respective path and run the following command.
 
 ```
 bash run.sh
 ```
 
-
+- in above shell file, optinoal modulator argument activates the modulator
 
 ### Citation
 
@@ -24,10 +24,10 @@ If this code is useful for your research, please cite us at:
 
 ```
 @inproceedings{kang2024ConTL,
-  title={Cascading global and sequential temporal representations with local context modeling for EEG-based emotion recognition},
+  title={Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition},
   author={Kang, Hyunwook and Choi, Jin Woo and Kim, Byung Hyung},
-  conference={International Conference on Pattern Recognition},
-  year={2024}
+  journal={IEEE Transactions on Affective Computing},
+  year={2025}
 }
 ```
 
