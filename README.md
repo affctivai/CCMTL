@@ -4,7 +4,7 @@ Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based E
 Code for the [TAFFC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369) paper Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition
 
 <p align="center">
-  <img width="600" src="ConTL-pic.png">
+  <img width="600" src="CCMTL.png">
 </p>
 
 ### Data Download and set up environments
