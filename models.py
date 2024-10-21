@@ -67,7 +67,7 @@ class CCMTL(nn.Module):
     def forward(self, x):
 
         o=self.convNet(x)
-       
+
         if self.args.modulator:    
             o=self.modulator(o)
 
