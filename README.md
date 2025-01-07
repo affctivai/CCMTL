@@ -23,10 +23,10 @@ bash run.sh
 If this code is useful for your research, please cite us at:
 
 ```
-@inproceedings{kang2025CCMTL,
+@article{kang2025CCMTL,
   title={Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition},
   author={Kang, Hyunwook and Choi, Jin Woo and Kim, Byung Hyung},
-  journal={IEEE Transactions on Affective Computing},
+  journal={IEEE Journal of Neural Engineering},
   year={2025}
 }
 ```
