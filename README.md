@@ -1,8 +1,6 @@
 # CCMTL
 Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition
 
-Code for the [JNE](https://iopscience.iop.org/journal/1741-2552) paper Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition
-
 <p align="center">
   <img width="800" src="CCMTL.png">
 </p>
