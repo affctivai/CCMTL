@@ -25,6 +25,8 @@ If this code is helpful for your research, please cite us at:
   title={Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition},
   author={Kang, Hyunwook and Choi, Jin Woo and Kim, Byung Hyung},
   journal={Biomedical Engineering Letters},
+  volume={15},
+  pages={749-761}
   year={2025}
 }
 ```
